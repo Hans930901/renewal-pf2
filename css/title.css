@@ -9,24 +9,19 @@
   height: 100%;
   overflow: hidden;
 }
-#title .wrap ul li {  
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /*! padding: 0 calc((100% - 1440px) / 2); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  align-items: baseline;
+#title .wrap ul div{
+  height: 100%
 }
-#title .wrap ul li:nth-child(1){  
+#title .wrap ul li {  
+  background-position: center;
+}
+#title .wrap ul li.t1{  
   background-image: url(../img/jpg/DelightMoment.jpg);
 }
-#title .wrap ul li:nth-child(2){
+#title .wrap ul li.t2{
   background-image: url(../img/jpg/FindYourSummerColor.jpg);
 }
-#title .wrap ul li:nth-child(3){
+#title .wrap ul li.t3{
   background-image: url(../img/jpg/HappyEat,TasteGood!.jpg);
 }
 #title .wrap ul li h2 {  

@@ -28,7 +28,15 @@
                 slidesToScroll: 1,
                 dots:true,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 2000
+            });
+            $('.titleAni').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots:true,
+                autoplay: true,
+                autoplaySpeed: 2000
             });
         });
     </script>
@@ -103,16 +111,16 @@
     <!-- 타이틀영역 -->
     <div id="title">
         <div class="wrap">
-            <ul>
-                <li>
+            <ul class="titleAni">
+                <li class="t1">
                     <h2 class="hide">DelightMoment</h2>
                     <a href="" class="block h5T">자세히 보기</a>
                 </li>
-                <li>
+                <li class="t2">
                     <h2 class="hide">Find Your Summer Color</h2>
                     <a href="" class="block h5T">자세히 보기</a>
                 </li>
-                <li>
+                <li class="t3">
                     <h2 class="hide">Happy Eat,<span  class="block"></span>Taste Good!</h2>
                     <a href="" class="block h5T">자세히 보기</a>
                 </li>
