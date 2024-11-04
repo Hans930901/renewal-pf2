@@ -1,0 +1,108 @@
+header {  
+  background: white;
+  height: 123px;
+}
+header nav {  
+  margin: 0 auto;
+  width: 1190px;
+  position: relative;
+}
+header nav h1 {  
+  margin-top: 30px;
+}
+header nav h1 a {  
+  background: url(../img/png/logo.png) no-repeat;
+  width: 132px;
+  height: 64px;
+  font-size: 0;
+}
+header nav .gnb {  
+  margin: 63px 0 42px 57px;
+}
+header nav .gnb > li {  
+  position: relative;
+}
+header nav .gnb > li a {
+  padding: 0 29px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #444;
+  text-align: center;
+  font-weight: 510;
+  font-family: 'Roboto';
+}
+header nav .gnb > li:nth-child(1) a{  
+  width: 94px;
+}
+header nav .gnb > li:nth-child(2) a{  
+  width: 54px;
+}
+header nav .gnb > li:nth-child(3) a{  
+  width: 60px;
+}
+header nav .gnb > li:nth-child(4) a{  
+  width: 107px;
+}
+header nav .gnb > li:nth-child(5) a{  
+  width: 92px;
+}
+header nav .gnb > li:nth-child(6) a{  
+  width: 80px;
+}
+header nav > a{
+  width: 133px;
+  background: #00A5B1;
+  padding: 8px 0 9px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 42px;
+  transform: translateY(-7px);
+  position: absolute;
+  right: 0px;
+  bottom: 27px;
+}
+header nav .lang {
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+header nav .lang > li {
+  
+}
+header nav .lang > li > a {  
+  padding: 0 4px 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #444;
+}
+header nav .lang > li:last-child a::before{
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 28px;
+  width: 1px;
+  height: 9px;
+  background: #d4d4d4;
+}
+header nav .lang > li:last-child a{
+  color: #707070;
+}
+header nav .gnb li .sub{  
+  position: absolute;
+  padding-top: 60px;
+  z-index: 1;
+  text-align: center;
+  height: 180px;
+  opacity: 0;
+}
+header nav .gnb:hover li .sub{  
+  opacity: 1;
+}
+header nav .gnb li .sub > li {
+  
+}
+header nav .gnb li .sub > li > a {  
+  line-height: 1.6;
+}
