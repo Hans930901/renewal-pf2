@@ -31,6 +31,7 @@ footer .wrap ul.fnb li a {
 footer .wrap p.tel {
   align-self: center;
   font-size: 14px;
+  padding: 5px 0;
 }
 footer .wrap h1 {
   grid-column: 1;
@@ -59,27 +60,30 @@ footer .wrap ul.sns {
   font-size: 14px;
   justify-content: end;
   align-items: center;
+  gap: 10px;
 }
 footer .wrap ul.sns li {
 
 }
 footer .wrap ul.sns li a {
-
+  width: 30px;
+  height: 30px;
+  font-size: 0;
 }
-footer .wrap ul.sns:nth-child(1) a {
-
+footer .wrap ul.sns li:nth-child(1) a {
+  background: url(../img/png/ico-insta.png) no-repeat 50% 50%;
 }
-footer .wrap ul.sns:nth-child(2) a {
-
+footer .wrap ul.sns li:nth-child(2) a {
+  background: url(../img/png/ico-blog.png) no-repeat 50% 50%;
 }
-footer .wrap ul.sns:nth-child(3) a {
-
+footer .wrap ul.sns li:nth-child(3) a {
+  background: url(../img/png/ico-fb.png) no-repeat 50% 50%;
 }
-footer .wrap ul.sns:nth-child(4) a {
-
+footer .wrap ul.sns li:nth-child(4) a {
+  background: url(../img/png/ico-youtub.png) no-repeat 50% 50%;
 }
-footer .wrap ul.sns:nth-child(5) a {
-  
+footer .wrap ul.sns li:nth-child(5) a {
+  background: url(../img/png/ico-app.png) no-repeat 50% 50%;
 }
 footer .wrap p.copyright {
   grid-column: 2 / span 2;

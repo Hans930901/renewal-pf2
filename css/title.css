@@ -5,23 +5,23 @@
   width: auto;
   height: 100%;
 }
-#title .wrap ul {  
+#title .wrap > ul {  
   height: 100%;
   overflow: hidden;
 }
-#title .wrap ul div{
+#title .wrap > ul div{
   height: 100%
 }
-#title .wrap ul li {  
+#title .wrap > ul li.t{  
   background-position: center;
 }
-#title .wrap ul li.t1{  
+#title .wrap > ul li.t1{  
   background-image: url(../img/jpg/DelightMoment.jpg);
 }
-#title .wrap ul li.t2{
+#title .wrap > ul li.t2{
   background-image: url(../img/jpg/FindYourSummerColor.jpg);
 }
-#title .wrap ul li.t3{
+#title .wrap > ul li.t3{
   background-image: url(../img/jpg/HappyEat,TasteGood!.jpg);
 }
 #title .wrap ul li h2 {  

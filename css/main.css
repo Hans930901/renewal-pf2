@@ -140,24 +140,12 @@ main {
 #news .wrap h2 {  
   margin-bottom: 30px;
 }
-#news .wrap ul {
-  
-}
-#news .wrap ul li {
-  
-}
 #news .wrap ul li a {  
   width: fit-content;
   margin: 0 auto;
 }
-#news .wrap ul li a figure {
-  
-}
 #news .wrap ul li a figure img {  
   width: 228px;
-}
-#news .wrap ul li a figure figcaption {
-  
 }
 #news .wrap ul li a figure figcaption h3 {  
   line-height: 2.5;
@@ -167,9 +155,6 @@ main {
   white-space: nowrap;
   overflow: hidden;
   width: 228px;
-}
-#news .wrap ul li a figure figcaption p {
-  
 }
 #news .wrap ul .slick-prev, #news .wrap ul .slick-next{
   width: 40px
@@ -183,132 +168,6 @@ main {
 }
 #news .wrap ul .slick-dots li button::before{  
   font-size: 10px;
-}
-#news .wrap ul .news1{
-
-}
-#news .wrap ul .news1 a {
-  
-}
-#news .wrap ul .news1 a figure {
-  
-}
-#news .wrap ul .news1 a figure img {
-  
-}
-#news .wrap ul .news1 a figure figcaption {
-  
-}
-#news .wrap ul .news1 a figure figcaption h3 {
-  
-}
-#news .wrap ul .news1 a figure figcaption p {
-  
-}
-#news .wrap ul .news2{
-
-}
-#news .wrap ul .news2 a {
-  
-}
-#news .wrap ul .news2 a figure {
-  
-}
-#news .wrap ul .news2 a figure img {
-  
-}
-#news .wrap ul .news2 a figure figcaption {
-  
-}
-#news .wrap ul .news2 a figure figcaption h3 {
-  
-}
-#news .wrap ul .news2 a figure figcaption p {
-  
-}
-#news .wrap ul .news3{
-
-}
-#news .wrap ul .news3 a {
-  
-}
-#news .wrap ul .news3 a figure {
-  
-}
-#news .wrap ul .news3 a figure img {
-  
-}
-#news .wrap ul .news3 a figure figcaption {
-  
-}
-#news .wrap ul .news3 a figure figcaption h3 {
-  
-}
-#news .wrap ul .news3 a figure figcaption p {
-  
-}
-#news .wrap ul .news4{
-
-}
-#news .wrap ul .news4 a {
-  
-}
-#news .wrap ul .news4 a figure {
-  
-}
-#news .wrap ul .news4 a figure img {
-  
-}
-#news .wrap ul .news4 a figure figcaption {
-  
-}
-#news .wrap ul .news4 a figure figcaption h3 {
-  
-}
-#news .wrap ul .news4 a figure figcaption p {
-  
-}
-#news .wrap ul .news5{
-
-}
-#news .wrap ul .news5 a {
-  
-}
-#news .wrap ul .news5 a figure {
-  
-}
-#news .wrap ul .news5 a figure img {
-  
-}
-#news .wrap ul .news5 a figure figcaption {
-  
-}
-#news .wrap ul .news5 a figure figcaption h3 {
-  
-}
-#news .wrap ul .news5 a figure figcaption p {
-  
-}
-#news .wrap ul .news6{
-  
-}
-#news .wrap ul .news6 a {
-  
-}
-#news .wrap ul .news6 a figure {
-  
-}
-#news .wrap ul .news6 a figure img {
-  
-}
-#news .wrap ul .news6 a figure figcaption {
-  
-}
-#news .wrap ul .news6 a figure figcaption h3 {
-  
-}
-#news .wrap ul .news6 a figure figcaption p {
-  
 }
 /* 소개 */
 #introduction {  
